@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle edutin-clases",
+        "command": "edutin-clases:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "edutin-clases",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "edutin-clases:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
