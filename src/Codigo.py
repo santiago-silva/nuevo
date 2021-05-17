@@ -1,3 +1,1 @@
-include std.io
-
-hola = a
+import .*
